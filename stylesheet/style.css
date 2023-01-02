@@ -1,0 +1,92 @@
+.Heading {
+    background-color: #FF7B54;
+    border-width:10px;
+    border-style:solid;
+    border-color:black;
+}
+.profilelinkedin {
+    background-color: #FFB26B;
+}
+.address {
+    background-color: #FF577F;
+}
+.introduction {
+    background-color: #DFD3C3;
+}
+.experience {
+background-color:#BCE29E ;
+}
+.skills {
+background-color:#FF8787 ;
+}
+.hobbies {
+background-color:#D58BDD ;
+}
+
+
+
+
+body {
+    background-image: url(whiterose.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+    
+}
+img {
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    border-radius: 50%;
+}
+@keyframes animate{
+    0%{
+        clip-path: circle(0% at 50% 50%); 
+    }
+    100%{
+        clip-path: circle(100% at 50% 50%);
+    }
+}
+p{
+    color: black;
+    font-family: cursive;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-play-state: running
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: black;
+    width: 5%;
+}
+
+h1 {
+    color: black; font-size: 50px;
+    font-family: cursive;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+h2 {
+    color: black; font-size: 25px;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-play-state: running
+
+
+}
+h3 {
+
+    color: black;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-play-state: running
+}
