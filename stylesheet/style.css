@@ -12,12 +12,11 @@
 }
 .introduction {
     background-color: #DFD3C3;
-}
-.experience {
-background-color:#BCE29E ;
+    font-size: 35px;
 }
 .skills {
-background-color:#FF8787 ;
+background-color:#FF8787;
+font-size: 35px;
 }
 .hobbies {
 background-color:#D58BDD ;
@@ -63,7 +62,7 @@ hr {
 }
 
 h1 {
-    color: black; font-size: 50px;
+    color: black; font-size: 70px;
     font-family: cursive;
     animation-name: animate;
     animation-duration: 5s;
@@ -71,14 +70,14 @@ h1 {
     animation-play-state: running;
 }
 h2 {
-    color: black; font-size: 25px;
+    color: black; font-size: 50px;
     
 
 
 }
 h3 {
 
-    color: black;
+    color: black;font-size: 50px;
     animation-name: animate;
     animation-duration: 5s;
     animation-timing-function: linear;
