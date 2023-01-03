@@ -52,10 +52,7 @@ img {
 p{
     color: black;
     font-family: cursive;
-    animation-name: animate;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-play-state: running
+    
 }
 hr {
     border-style: none;
@@ -75,10 +72,7 @@ h1 {
 }
 h2 {
     color: black; font-size: 25px;
-    animation-name: animate;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-play-state: running
+    
 
 
 }
