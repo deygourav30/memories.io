@@ -83,3 +83,6 @@ h3 {
     animation-timing-function: linear;
     animation-play-state: running
 }
+li {
+    color: black;font-size: 35px; 
+}
