@@ -28,7 +28,7 @@ background-color:#D58BDD ;
 body {
     background-image: url(whiterose.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: "Comic Sans MS", "Comic Sans", sherif;
 
     
@@ -90,4 +90,8 @@ li {
 .timing {
     color: black;font-size: 50px;
     font-family: cursive;
+}
+.photos {
+    background-color: #9D3C72;
+    font-size: 35px;
 }
